@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin version="1.0" language="ko">
+  <information>
+    <name>iCloud 메모</name>
+    <version>1.0</version>
+    <description>dev
+    </description>
+    <license>dev
+    </license>
+  </information>
+  <author>
+    <name>tistory</name>
+    <homepage>http://notice.tistory.com</homepage>
+    <email>tistoryblog@daum.net</email>
+  </author>
+  <default>
+    <sortInCloud>2</sortInCloud>
+  </default>
+  <liststyle>
+		<item>
+			<label>목록형</label>
+			<value>list</value>
+		</item>
+		<item>
+			<label>갤러리형</label>
+			<value>gallery</value>
+		</item>
+	</liststyle>
+</skin>

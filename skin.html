@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[##_page_title_##]</title>
+    <script
+      src="https://kit.fontawesome.com/5c020123f8.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <a href="[##_blog_link_##]"><h1>[##_title_##]</h1></a>
+      </div>
+      <div>
+        <div>
+          <button
+            class="btn_menu_toolbar btn_subscription #subscribe"
+            data-blog-id="5892854"
+            data-url="https://spadeworks.tistory.com"
+            data-device="web_pc">
+            <strong class="txt_tool_id">삽질 모음</strong>
+            <em class="txt_state">구독하기</em>
+            <span class="img_common_tistory ico_check_type1"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="split-view">
+      <div id="categoryContainer" class="split-wrapper">
+        <div id="categoryBar">[##_category_list_##]</div>
+      </div>
+      <div id="listContainer" class="split-wrapper">
+        <div id="searchBar">
+          <s_search>
+            <i id="searchIcon" class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              name="[##_search_name_##]"
+              value="[##_search_text_##]"
+              oninput="searchInputChange(this)"
+              onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"
+              placeholder="모든 글 검색" />
+            <i class="fa-solid fa-circle-xmark close"></i>
+          </s_search>
+        </div>
+        <div id="listBar">
+          <s_list>
+            <ol>
+              <s_list_rep>
+                <li>
+                  <a href="[##_list_rep_link_##]">
+                    <div class="item-container">
+                      <div class="icon-container">
+                        <i class="fa-solid fa-lock lock-icon" style="display: none"></i>
+                      </div>
+                      <div class="item-content">
+                        <div class="item-title">[##_list_rep_title_##]</div>
+                        <div class="item-det">
+                          <div class="item-date">
+                            [##_list_rep_date_year_##]년 [##_list_rep_date_month_##]월
+                            [##_list_rep_date_day_##]일
+                          </div>
+                          <div class="item-text">
+                            [##_list_rep_summary_##]
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </s_list_rep>
+            </ol>
+          </s_list>
+        </div>
+      </div>
+      <div id="postContainer" class="split-wrapper">
+        <s_article_rep>
+          <div class="titleWrap">
+            <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+            <div class="category">
+              <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a>
+            </div>
+            <div class="date">[##_article_rep_date_##]</div>
+          </div>
+
+          <div class="article">[##_article_rep_desc_##]</div>
+        </s_article_rep>
+      </div>
+    </div>
+
+    <script src="./images/script.js"></script>
+  </body>
+</html>
